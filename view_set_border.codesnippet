@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>view set border</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>
+&lt;#viewName#&gt;.layer.borderColor = [&lt;#UIColor#&gt;].CGColor;
+&lt;#viewName#&gt;.layer.borderWidth = &lt;#borderWidth#&gt;;
+&lt;#viewName#&gt;.layer.cornerRadius = &lt;#cornerRadius#&gt;;
+&lt;#viewName#&gt;.layer.masksToBounds = YES;</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>90A5A73E-5657-4778-AA5B-5DFDD03892BE</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>view set border</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
