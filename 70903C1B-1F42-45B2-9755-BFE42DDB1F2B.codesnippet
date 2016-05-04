@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>launch api</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>MBProgressHUD *hud = [MBProgressHUD showHUDAddedTo:self.view animated:YES];
+hud.labelText = NSLocalizedString(@"loading", nil);
+
+[&lt;#viewModel#&gt; &lt;#method#&gt;].then(^(id response) {
+    &lt;#code#&gt;
+    [hud hide:YES];
+    return response;
+}).catch(^(NSError *error) {
+    &lt;#code#&gt;
+    [hud hide:YES];
+    [[MBProgressHUD op_showErrorAddedTo:self.view error:error] hide:YES afterDelay:1.5];
+});</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>70903C1B-1F42-45B2-9755-BFE42DDB1F2B</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>api launch</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>api launch</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

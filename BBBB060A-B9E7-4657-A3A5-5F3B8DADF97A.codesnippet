@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>vmwdatas</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>+ (NSArray *)viewModelsWithDatas:(NSArray *)datas {
+    if (datas == nil) {
+        return [NSArray new];
+    }
+    NSMutableArray *viewModels = [NSMutableArray new];
+    for (NSDictionary *data in datas) {
+        &lt;#viewModelName#&gt; *viewModel = [[&lt;#viewModelName#&gt; alloc] initWithDictionary:data];
+        [viewModels addObject:viewModel];
+    }
+    return viewModels;
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>BBBB060A-B9E7-4657-A3A5-5F3B8DADF97A</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>view models with datas</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>view models with datas</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

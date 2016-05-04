@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>tbvemptytext</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>if ([self.tableView.dataSource tableView:tableView numberOfRowsInSection:0] == 0 &amp;&amp; ![self.refreshControl isRefreshing]) {
+    UILabel *messageLabel = [[UILabel alloc] initWithFrame:self.tableView.frame];
+    messageLabel.text = @"&lt;#description#&gt;";
+    messageLabel.textAlignment = NSTextAlignmentCenter;
+    self.tableView.backgroundView = messageLabel;
+    return 0;
+} else {
+    self.tableView.backgroundView = nil;
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>745422E7-5729-4BBC-9974-2D4FE4ACC9DF</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Table view text placeholder</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Table view text placeholder</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
